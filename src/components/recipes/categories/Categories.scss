@@ -1,0 +1,21 @@
+@import "../../../scss/style.scss";
+
+.recipes-categoories {
+    margin-bottom: $large-space;
+    gap: $medium-space;
+
+    .recipes-categoories-btn {
+        @include btn;
+        background: transparent;
+        color: $main-color;
+        border: 1px solid $main-color;
+        min-width: 90px;
+        padding-bottom: 2px;
+
+
+        &.active, &:hover {
+            background-color: $main-color;
+            color: $white-color;
+        }
+    }
+}

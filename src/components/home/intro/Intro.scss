@@ -1,0 +1,46 @@
+@import "../../../scss/style.scss";
+
+.intro {
+    background: $main-color;
+    border-radius: 10px;
+    margin-top: $large-space;
+    
+
+    .intro-text {
+        padding: $medium-space;
+
+        .intro-text-title {
+            color: $white-color;
+            margin-bottom: $small-space;
+            font-weight: bold;
+        }
+
+        .intro-text-desc {
+            margin-bottom: $large-space;
+            color: $white-color;
+            text-transform: capitalize;
+            opacity: .9;
+            word-spacing: 2px;
+        }
+
+        .go-to-btn {
+            @include btn;
+            background: $white-color;
+            color: $main-color;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                margin-right: $small-space;
+                padding-bottom: 2px;
+            }
+        }
+    }
+
+    .intro-img {
+        position: absolute;
+        bottom: 0;
+        left: -$large-space;
+        min-width: 105%;
+    }
+}

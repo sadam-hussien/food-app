@@ -1,0 +1,74 @@
+@import "../../../scss/style.scss";
+
+.cart-item {
+    border-bottom: 1px solid rgba($dark-color, .05);
+    padding: $medium-space;
+
+    // start img
+    .img {
+        background-color: $white-color;
+        padding: $medium-space;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba($dark-color, .05);
+        height: 120px;
+    }
+    // ==== end img
+
+    // start name
+    .name {
+        .name-text {
+            color: $sub-color;
+            margin-bottom: 2px;
+        }
+
+        .sub-details {
+            margin-bottom: $medium-space;
+            > span {
+                margin-right: 5px;
+                color: $sub-color;
+                span {
+                    color: $light-gray-color;
+                    margin-left: 3px;
+                }
+            }
+        }
+
+        .recipe-item-details-quantity {
+            justify-content: flex-start !important;
+            margin-top: auto;
+            margin-bottom: 0 !important;
+
+            .recipe-item-details-quantity-btn {
+                background-color: rgba($main-color, .1);
+                color: $main-color;
+            }
+
+        }
+    }
+    // ==== end name
+
+    // start options
+    .options {
+        .price {
+            font-size: 1.6rem;
+            color: $sub-color;
+            sub {
+                color: $main-color;
+            }
+        }
+        .delete-btn {
+            margin-top: auto;
+            background-color: transparent;
+            border: none;
+            color: $light-gray-color;
+            opacity: .5;
+            padding: 0;
+            transition: .3s;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    // ==== end options
+
+}

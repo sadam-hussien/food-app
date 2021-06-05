@@ -1,0 +1,32 @@
+@import "../../../scss/style.scss";
+
+.cart-confirm-order {
+    margin-top: $large-space;
+    padding: $medium-space;
+
+    .box {
+        margin-bottom: $medium-space;
+        span:first-of-type {
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        span:last-of-type {
+            font-weight: bold;
+            color: $sub-color;
+            // font-size: 1.1rem;
+            sub {
+                color: $main-color;
+            }
+        }
+    }
+
+    .confirm-order-btn {
+        button {
+            @include btn;
+            
+            .icon {
+                margin-left: $small-space;
+            }
+        }
+    }
+}

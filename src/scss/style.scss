@@ -1,0 +1,86 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+// vars
+$font: 'Lato', sans-serif;
+$font-size-small: .9rem;
+$header-width: 230px;
+$header-height: 70px;
+$content-width: calc(100vw - #{$header-width});
+$large-space: 40px;
+$medium-space: 20px;
+$small-space: 10px;
+$white-color: #ffffff;
+$dark-color: #444444;
+$main-color: #FF8D00;
+$sub-color: #280D8A;
+$additional-color: #95B44E;
+$light-gray-color: #929292;
+$bg-light-color: #FAF9FB;
+
+
+
+// mixins
+@mixin paddingV {
+    padding-top: $large-space;
+    padding-bottom: $large-space;
+}
+
+@mixin btn {
+    background-color: $main-color;
+    color: $white-color;
+    padding: 0 $medium-space;
+    border: none;
+    min-width: 120px;
+    height: 38px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: $font-size-small;
+    box-shadow: none;
+    transform-origin: center;
+    transition: .3s;
+}
+
+
+
+// globals
+body {
+    font-family: $font;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: $white-color;
+    color: $light-gray-color;
+    @media (max-width: 991px) {
+        padding-top: $header-height * 2;
+    }
+    @media (max-width: 767px) {
+        padding-top: $header-height;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.page {
+    background: $bg-light-color;
+    @include paddingV;
+    padding-bottom: 0 !important;
+}
+
+.page-content {
+    min-height: calc(100vh - #{$large-space});
+}
+
+input, button, textarea, select {
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+input::placeholder {
+    font-size: $font-size-small;
+    text-transform: capitalize;
+}

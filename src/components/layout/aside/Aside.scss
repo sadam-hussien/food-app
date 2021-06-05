@@ -1,0 +1,128 @@
+@import "../../../scss/style.scss";
+
+.reports {
+    top: 0;
+    padding-right: $medium-space;
+    padding-left: $medium-space;
+    background-color: $white-color;
+    box-shadow: 1px 0 10px rgba($dark-color, .05);
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    @media (min-width: 992px) {
+        height: 100vh;
+        @include paddingV;
+    }
+
+    @media (max-width: 991px) {
+        padding-top: $medium-space;
+        padding-bottom: $medium-space;
+        position: fixed !important;
+        top: $header-height;
+        left: 0;
+        width: 100vw;
+    }
+
+    @media (max-width: 767px) {
+        top: 0;
+        z-index: 9999;
+        width: fit-content;
+        left: auto;
+        right: $large-space;
+        box-shadow: none;
+        background-color: transparent;
+
+    }
+
+    .reports-head {
+        $size: 30px;
+
+        .cart-btn {
+            margin-right: $small-space;
+            width: $size;
+            height: $size;
+            position: relative;
+            color: $sub-color;
+
+            .cart-length {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                font-size: .8rem;
+                z-index: 1;
+                font-weight: bold;
+                color: $main-color;
+            }
+
+            &.active {
+
+            }
+        }
+
+        button {
+            border-radius: 5px;
+            width: $size;
+            height: $size;
+            position: relative;
+            
+            &.notify-btn {
+                background: transparent;
+                border: 1px solid rgba($light-gray-color, .1);
+                margin-right: $small-space;
+                color: $sub-color;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 3px;
+                    right: 3px;
+                    width: 5px;
+                    height: 5px;
+                    background: $main-color;
+                    border-radius: 50%;
+
+                }
+            }
+            &.profile-btn {
+                background-color: $main-color;
+                color: $white-color;
+                border: none;
+            }
+        }
+
+        @media (min-width: 992px) {
+            margin-bottom: $medium-space;
+        }
+
+    }
+
+    .report-title {
+        margin-bottom: $medium-space;
+        line-height: 1.6;
+        .report-title-word {
+            color: $sub-color;
+            margin-right: 5px;
+        }
+    }
+
+    .reports-chart {
+        padding-bottom: $medium-space;
+        border-bottom: 1px solid rgba($light-gray-color, .2);
+
+        .apexcharts-legend {
+            overflow: hidden;
+        }
+    }
+
+    .reports-testim {
+        margin-top: $medium-space;
+
+        .reports-testim-title {
+            color: $sub-color;
+            margin-bottom: $medium-space;
+        }
+        
+    }
+
+}

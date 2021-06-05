@@ -1,0 +1,24 @@
+@import "../../../scss/style.scss";
+
+.recipes-items {
+    .in-recipes-page {
+        $space: 20px;
+        position: relative;
+
+        @media (min-width: 768px) {
+            &:nth-of-type(3n+ 2) {
+                transform: translateY($space);
+            }
+            &:nth-of-type(3n+ 3) {
+                transform: translateY($space * 2);
+            }
+        }
+
+        @media (min-width: 577px) and (max-width: 767px) {
+            &:nth-of-type(even) {
+                transform: translateY($space);
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,68 @@
+@import "../../../scss/style.scss";
+
+.recipe-item-shape {
+    width: fit-content;
+    margin-top: $large-space !important;
+    padding: $medium-space $large-space;
+    z-index: 1;
+
+    .left, .center, .right {
+        width: 50%;
+        height: 100%;
+        background: $white-color;
+        position: absolute;
+        bottom: 0;
+        
+        &.left {
+            left: 0;
+            transform: skewX(-15deg);
+            border-radius: 10px 0 0 10px;
+            box-shadow: -1px 0 10px rgba($dark-color, .05);
+            z-index: -1;
+        }
+
+        &.right {
+            right: 0;
+            transform-origin: right;
+            transform: skewX(15deg);
+            border-radius: 0 10px 10px 0;
+            box-shadow: 1px 0 10px rgba($dark-color, .05);
+            z-index: -2;
+
+        }
+        &.center {
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+    }
+}
+
+.recipe-item-details-quantity {
+    margin-bottom: $medium-space;
+    .recipe-item-details-quantity-btn {
+        $size: 32px;
+        width: $size;
+        height: $size;
+        line-height: $size;
+        text-align: center;
+        background: $bg-light-color;
+        color: $main-color;
+        font-size: .8rem;
+        border: none;
+        padding: 0;
+        border-radius: 5px;
+
+        &:hover {
+            background: $main-color;
+            color: $white-color;
+        }
+    }
+
+    .quantity-text {
+        margin: 0 $medium-space;
+        font-size: 1.1rem;
+        font-weight: bold;
+
+    }
+}

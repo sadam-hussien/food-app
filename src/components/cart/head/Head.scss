@@ -1,0 +1,40 @@
+@import "../../../scss/style.scss";
+
+.cart-head {
+    margin-bottom: $large-space;
+
+    
+    .cart-head-btn {
+        $size: 40px;
+        width: $size;
+        height: $size;
+        line-height: $size;
+        text-align: center;        
+        border-radius: 10px;
+        transition: .3s;
+    }
+
+    // start go-to-home-btn
+    .go-to-recipes-btn {
+        background: rgba($main-color, .1);
+        color: $main-color;
+        &:hover {
+            background: $main-color;
+            color: $white-color;
+        }
+    }
+    // ==== ed go-to-home-btn
+
+    .cart-head-text {
+        color: $sub-color;
+    }
+
+    .cart-head-menu-btn {
+        background: $white-color;
+        padding: 0;
+        border: none;
+        color: $sub-color;
+        box-shadow: 0 0 10px rgba($dark-color, .1);
+    }
+
+}

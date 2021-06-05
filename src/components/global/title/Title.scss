@@ -1,0 +1,24 @@
+@import "../../../scss/style.scss";
+
+.title {
+    margin-bottom: $large-space;
+    
+    .title-text {
+        color: $sub-color;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    .more-btn {
+        color: $main-color;
+        text-transform: capitalize;
+        font-size: $font-size-small;
+        font-weight: bold;
+        .icon {
+            margin-left: $small-space;
+            padding-top: 3px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import "../../../scss/style.scss";
+
+.recipe-intro {
+    margin-bottom: $large-space;
+
+    .intro-text {
+        color: $sub-color;
+        @media (max-width: 576px) {
+            margin-bottom: $medium-space;
+        }
+    }
+
+    .recipe-search {
+        input {
+            margin-right: $small-space;
+            background-color: $white-color;
+            height: 40px;
+            padding: 0 $medium-space;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            min-width: 40px;
+            height: 40px;
+            padding: 0;
+            border: none;
+            background-color: $main-color;
+            color: $white-color;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

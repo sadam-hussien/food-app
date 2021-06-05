@@ -1,0 +1,536 @@
+[
+    {
+        "id": 1,
+        "name": "bagel",
+        "categ": "food",
+        "desc": "A bagel, also spelled beigel, is a bread product originating in the Jewish communities of Poland. It is traditionally shaped by hand into the form of a ring from yeasted wheat dough, roughly hand-sized, that is first boiled for a short time in water and then baked. The result is a dense, chewy, doughy interior with a browned and sometimes crisp exterior. Bagels are often topped with seeds baked on the outer crust, with the traditional ones being poppy, sunflower or sesame seeds. Some may have salt sprinkled on their surface, and there are different dough types, such as whole-grain or rye.",
+        "img": "http://pngimg.com/uploads/bagel/bagel_PNG96.png",
+        "ingredients": [
+            {
+                "quantity": "1 lb",
+                "name": " asparagus",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1 1/2 tbsp",
+                "name": "olive oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/2 tsp",
+                "name": "kosher salt",
+                "type": "Baking"
+            }
+        ],
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 2,
+        "name": "Cheese",
+        "categ": "food",
+        "desc": "Cheese is a food derived from milk that is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein. It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep. During production, the milk is usually acidified, and adding the enzyme rennet causes coagulation. The solids are separated and pressed into final form. Some cheeses have molds on the rind or throughout. Most cheeses melt at cooking temperature",
+        "img": "http://pngimg.com/uploads/cheese/cheese_PNG97102.png",
+        "ingredients": [
+            {
+                "quantity": "1 quart",
+                "name": "beef broth",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1 cup",
+                "name": "dried green lentils",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "basmati rice",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "curry powder",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            }
+        ],
+        "calories": 1565,
+        "fat": 20,
+        "satfat": 67,
+        "carbs": 70,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 800
+    },
+    {
+        "id": 3,
+        "name": "Pizza",
+        "categ": "food",
+        "desc": "Pizza is a yeasted flatbread generally topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments. The term was first recorded in the 10th century, in a Latin manuscript from Gaeta in Central Italy. The modern pizza was invented in Naples, Italy, and the dish and its variants have since become popular and common in many areas of the world.",
+        "img": "http://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+        "ingredients": [
+            {
+                "quantity": "5 teaspoons",
+                "name": "yeast",
+                "type": "Baking"
+            },
+            {
+                "quantity": "5 cups",
+                "name": "flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "4 tablespoons",
+                "name": "vegetable oil",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 tablespoons",
+                "name": "sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 teaspoons",
+                "name": "salt",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 cups",
+                "name": "hot water",
+                "type": "Misc"
+            },
+            {
+                "quantity": "1/4 cup",
+                "name": "pizza sauce",
+                "type": "Misc"
+            },
+            {
+                "quantity": "3/4 cup",
+                "name": "mozzarella cheese",
+                "type": "Dairy"
+            }
+        ],
+        "calories": 255,
+        "fat": 1529,
+        "satfat": 617,
+        "carbs": 762,
+        "fiber": 44,
+        "sugar": 65,
+        "protein": 2600
+    },
+    {
+        "id": 4,
+        "name": "Pizza",
+        "categ": "food",
+        "desc": "Pizza is a yeasted flatbread generally topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments. The term was first recorded in the 10th century, in a Latin manuscript from Gaeta in Central Italy. The modern pizza was invented in Naples, Italy, and the dish and its variants have since become popular and common in many areas of the world.",
+        "img": "http://pngimg.com/uploads/pizza/pizza_PNG44084.png",
+        "ingredients": [
+            {
+                "quantity": "2",
+                "name": "acorn squash",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1",
+                "name": "boiling water",
+                "type": "Drinks"
+            },
+            {
+                "quantity": "2",
+                "name": "apples chopped into 1.4 inch pieces",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "dried cranberries",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1 teaspoon",
+                "name": "cinnamon",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 tablespoons",
+                "name": "melted butter",
+                "type": "Dairy"
+            }
+        ],
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 5,
+        "name": "Meat",
+        "categ": "food",
+        "desc": "Meat is animal flesh that is eaten as food. Humans have hunted and killed animals for meat since prehistoric times. The advent of civilization allowed the domestication of animals such as chickens, sheep, pigs and cattle. This eventually led to their use in meat production on an industrial scale with the aid of slaughterhouses.",
+        "img": "http://pngimg.com/uploads/meat/meat_PNG98312.png",
+        "ingredients": [
+            {
+                "quantity": "200g",
+                "name": "plain flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "3",
+                "name": "eggs",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "300ml",
+                "name": "milk",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "3 tbsp",
+                "name": "vegetable oil",
+                "type": "Condiments"
+            }
+        ],
+        "calories": 25,
+        "fat": 1549,
+        "satfat": 467,
+        "carbs": 765,
+        "fiber": 46,
+        "sugar": 68,
+        "protein": 1200
+    },
+    {
+        "id": 6,
+        "name": "Jam",
+        "categ": "food",
+        "desc": "Jam typically contains both the juice and flesh of a fruit or vegetable, although one cookbook defines it as a cooked and jelled puree. The term jam refers to a product made of whole fruit cut into pieces or crushed, then heated with water and sugar to activate its pectin before being put into containers.",
+        "img": "http://pngimg.com/uploads/jam/jam_PNG143.png",
+        "ingredients": [
+            {
+                "quantity": "1 cup",
+                "name": "raisins",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1",
+                "name": "cup water",
+                "type": "Drinks"
+            },
+            {
+                "quantity": "3/4 cup",
+                "name": "shortening",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 1/2 cups",
+                "name": "sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 1/2 cups",
+                "name": "flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tsp.",
+                "name": "soda",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tsp.",
+                "name": "salt",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tsp.",
+                "name": "cinnamon",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/2 tsp.",
+                "name": "baking powder",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/2 tsp.",
+                "name": "cloves",
+                "type": "Baking"
+            },
+            {
+                "quantity": "2 cups",
+                "name": "oats",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "chopped nuts",
+                "type": "Baking"
+            }
+        ],
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 7,
+        "name": "Jam",
+        "categ": "food",
+        "desc": "Jam typically contains both the juice and flesh of a fruit or vegetable, although one cookbook defines it as a cooked and jelled puree. The term jam refers to a product made of whole fruit cut into pieces or crushed, then heated with water and sugar to activate its pectin before being put into containers.",
+        "img": "http://pngimg.com/uploads/jam/jam_PNG105.png",
+        "ingredients": [
+            {
+                "quantity": "2-1/2 cups",
+                "name": "rolled oats, (not instant)",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1-1/4 cups",
+                "name": "all-purpose flour",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 tbsp",
+                "name": "grated orange rind",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1/4 tsp",
+                "name": "salt",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1 cup",
+                "name": "cold butter, cubed",
+                "type": "Baking"
+            },
+            {
+                "quantity": "3/4 cup",
+                "name": "packed brown sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "3 cups",
+                "name": "fresh blueberries",
+                "type": "Produce"
+            },
+            {
+                "quantity": "1/2 cup",
+                "name": "granulated sugar",
+                "type": "Baking"
+            },
+            {
+                "quantity": "1/3 cup",
+                "name": "orange juice",
+                "type": "Produce"
+            },
+            {
+                "quantity": "4 tsp",
+                "name": "cornstarch",
+                "type": "Baking"
+            }
+        ],
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 8,
+        "name": "Fanta",
+        "categ": "drink",
+        "desc": "Fanta is a brand of fruit-flavored carbonated drinks marketed globally created by The Coca-Cola Company. There are more than 100 flavors worldwide. Fanta originated as a Coca-Cola substitute during the American trade embargo of Nazi Germany which affected the availability of Coca-Cola ingredients in 1940.",
+        "img": "http://pngimg.com/uploads/fanta/fanta_PNG60.png"
+    },
+    {
+        "id": 9,
+        "name": "eggs",
+        "categ": "food",
+        "desc": "Eggs are laid by female animals of many different species, including birds, reptiles, amphibians, mammals, and fish, and have been eaten by humans for thousands of years. Bird and reptile eggs consist of a protective eggshell, albumen (egg white), and vitellus (egg yolk), contained within various thin membranes. The most popular choice for egg consumption are chicken eggs. Other popular choices for egg consumption are duck, quail, roe, and caviar.",
+        "img": "http://pngimg.com/uploads/egg/egg_PNG40810.png",
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 10,
+        "name": "Cottage",
+        "categ": "food",
+        "desc": "Cottage cheese is drained, but not pressed, so some whey remains and the individual curds remain loose. The curd is usually washed to remove acidity, giving sweet-curd cheese. It is not aged or colored. Different styles of cottage cheese are made from milk with different fat levels and in small-curd or large-curd preparations. Pressed cottage cheese becomes hoop cheese, farmer cheese, pot cheese, or queso blanco.",
+        "img": "http://pngimg.com/uploads/cottage_cheese/cottage_cheese_PNG26.png",
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 11,
+        "name": "Coca Cola",
+        "categ": "drink",
+        "desc": "Coca-Cola (often referred to simply as Coke) is a carbonated soft drink produced by The Coca-Cola Company. Originally intended as a patent medicine, it was invented in the late 19th century by John Pemberton and was bought out by businessman Asa Griggs Candler,",
+        "img": "http://pngimg.com/uploads/cocacola/cocacola_PNG25.png"
+    },
+    {
+        "id": 12,
+        "name": "Falafel",
+        "categ": "food",
+        "desc": "Falafel is a common food eaten in the Middle East. The fritters are now found around the world as a replacement for meat and a form of street food.",
+        "img": "http://pngimg.com/uploads/falafel/falafel_PNG59.png",
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 13,
+        "name": "hamburger",
+        "categ": "food",
+        "desc": "hamburger or burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, barbecued, or flame broiled. Hamburgers are often served with cheese, lettuce, tomato, bacon, onion, pickles, or chiles; condiments such as mustard, mayonnaise, ketchup, relish, or special sauce and are frequently placed on sesame seed buns. A hamburger topped with a slice of cheese is called cheeseburger.",
+        "img": "http://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96776.png",
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 14,
+        "name": "Milk",
+        "categ": "drink",
+        "desc": "Milk is a nutrient-rich, white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for infant mammals (including humans who are breastfed) before they are able to digest other types of food. Early-lactation milk contains colostrum, which carries the mother's antibodies to its young and can reduce the risk of many diseases. It contains many other nutrients including protein and lactose. Interspecies consumption of milk is not uncommon, particularly among humans, many of whom consume the milk of other mammals.",
+        "img": "http://pngimg.com/uploads/milk/milk_PNG12747.png"
+    },
+    {
+        "id": 15,
+        "name": "Sushi",
+        "categ": "food",
+        "desc": "Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.",
+        "img": "http://pngimg.com/uploads/sushi/sushi_PNG98839.png",
+        "calories": 2565,
+        "fat": 159,
+        "satfat": 67,
+        "carbs": 76,
+        "fiber": 4,
+        "sugar": 6,
+        "protein": 200
+    },
+    {
+        "id": 16,
+        "name": "water bottle",
+        "categ": "drink",
+        "desc": "water bottle is a container that is used to hold water, liquids or other beverages for consumption. The use of a water bottle allows an individual to drink and transport a beverage from one place to another.",
+        "img": "http://pngimg.com/uploads/water_bottle/water_bottle_PNG10149.png"
+    },
+    {
+        "id": 17,
+        "name": "Tea",
+        "categ": "drink",
+        "desc": "Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured or fresh leaves of the Camellia sinensis, an evergreen shrub native to East Asia. After water",
+        "img": "http://pngimg.com/uploads/tea/tea_PNG98915.png"
+    },
+    {
+        "id": 18,
+        "name": "Artichoke",
+        "categ": "vegetables",
+        "desc": "The globe artichoke (Cynara cardunculus var. scolymus), also known by the names French artichoke and green artichoke in the U.S., is a variety of a species of thistle cultivated as a food.",
+        "img": "http://pngimg.com/uploads/artichoke/artichoke_PNG28.png"
+    },
+    {
+        "id": 19,
+        "name": "potato",
+        "categ": "vegetables",
+        "desc": "The potato is a starchy, tuberous crop from the perennial nightshade Solanum tuberosum. The word potato may refer either to the plant itself or to the edible tuber. In the Andes, where the species is indigenous",
+        "img": "http://pngimg.com/uploads/potato/potato_PNG98088.png"
+    },
+    {
+        "id": 20,
+        "name": "Spinach",
+        "categ": "vegetables",
+        "desc": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae",
+        "img": "http://pngimg.com/uploads/spinach/spinach_PNG72.png"
+    },
+    {
+        "id": 21,
+        "name": "tomato",
+        "categ": "vegetables",
+        "desc": "The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America",
+        "img": "http://pngimg.com/uploads/tomato/tomato_PNG12585.png"
+    },
+    {
+        "id": 22,
+        "name": "Carrot",
+        "categ": "vegetables",
+        "desc": "The carrot (Daucus carota subsp. sativus) is a root vegetable, usually orange in colour, though purple, black, red, white, and yellow cultivars exist. Carrots are a domesticated form of the wild carrot",
+        "img": "http://pngimg.com/uploads/carrot/carrot_PNG99135.png"
+    },
+    {
+        "id": 23,
+        "name": "almond",
+        "categ": "fruits",
+        "desc": "The almond (Prunus dulcis, syn. Prunus amygdalus) is a species of tree native to Mediterranean climate regions of the Middle East, from Syria and Turkey to India and Pakistan, although it has been introduced elsewhere.",
+        "img": "http://pngimg.com/uploads/almond/almond_PNG73.png"
+    },
+    {
+        "id": 24,
+        "name": "apple",
+        "categ": "fruits",
+        "desc": "The apple tree (Malus pumila, commonly and erroneously called Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple.",
+        "img": "http://pngimg.com/uploads/apple/apple_PNG12508.png"
+    },
+    {
+        "id": 25,
+        "name": "banana",
+        "categ": "fruits",
+        "desc": "The banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains",
+        "img": "http://pngimg.com/uploads/banana/banana_PNG822.png"
+    },
+    {
+        "id": 26,
+        "name": "Guava",
+        "categ": "fruits",
+        "desc": "Guava is a common tropical fruit cultivated in many tropical and subtropical regions. Psidium guajava (common guava, lemon guava) is a small tree in the myrtle family (Myrtaceae)",
+        "img": "http://pngimg.com/uploads/guava/guava_PNG14.png"
+    },
+    {
+        "id": 27,
+        "name": "peach",
+        "categ": "fruits",
+        "desc": "The peach is a deciduous tree native to the region of Northwest China between the Tarim Basin and the north slopes of the Kunlun Shan mountains, where it was first domesticated and cultivated. It bears an edible juicy fruit called a peach or a nectarine.",
+        "img": "http://pngimg.com/uploads/peach/peach_PNG4873.png"
+    },
+    {
+        "id": 28,
+        "name": "Strawberry",
+        "categ": "fruits",
+        "desc": "The garden strawberry is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries). It is cultivated worldwide for its fruit. The fruit (which is not a botanical berry,",
+        "img": "http://pngimg.com/uploads/strawberry/strawberry_PNG2630.png"
+    }
+]

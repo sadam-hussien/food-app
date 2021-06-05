@@ -1,0 +1,39 @@
+@import "../../../scss/style.scss";
+
+.get-our-app {
+    button {
+        white-space: nowrap;
+        min-width: 120px;
+        padding: 0 $medium-space;
+        height: 45px;
+        background-color: transparent;
+        border: none;
+
+        span {
+            margin-left: $small-space;
+        }
+
+        &.android-btn {
+            margin-right: $medium-space;
+            background-color: $main-color;
+            border-radius: 25px;
+            color: $white-color;
+        }
+
+        @media (max-width: 576px) {
+            &.android-btn {
+                margin-right: 0;
+                margin-bottom: $medium-space;
+            }
+        }
+
+    }
+    .img {
+        @media (max-width: 767px) {
+            margin-bottom: $large-space;
+        }
+        img {
+
+        }
+    }
+}

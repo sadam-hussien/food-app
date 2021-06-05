@@ -1,0 +1,114 @@
+@import "../../../scss/style.scss";
+
+.item {
+    margin-bottom: 30px;
+    .item-content {
+        background-color: $white-color;
+        padding: $medium-space;
+        box-shadow: 0 0 10px rgba($dark-color, .1);
+        border-radius: 10px;
+        transition: .3s;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 10px rgba($dark-color, .2);
+        }
+
+        // start item-head
+        .item-head {
+            margin-bottom: $medium-space;
+            
+            .item-img {
+                margin-right: $small-space;
+                img {
+                    width: 85px;
+                    height: 60px;
+                }
+            }
+
+            .item-name {
+                .text-name {
+                    color: $sub-color;
+                }
+                .item-colories {
+                    font-size: $font-size-small;
+                    color: $light-gray-color;
+                }
+            }
+
+            .item-cat {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: $main-color;
+                color: $white-color;
+                padding: 0 10px 2px;
+                border-radius: 20px;
+                font-size: $font-size-small;
+                box-shadow: 0 2px 5px 0 rgba($dark-color, .2);
+            }
+
+            &.in-recipes {
+                margin-bottom: 0;
+                .item-img {
+                    margin-right: 0;
+                    margin-bottom: $medium-space;
+                    img {
+                        width: 90px;
+                        height: auto;
+                    }
+                }
+
+                .item-name {
+                    margin-bottom: $small-space;
+
+                    .text-name {
+                        margin-bottom: 5px !important;
+                        font-size: 1.4rem;
+                    }
+                    .item-colories {
+                        font-weight: bold;
+                        color: $light-gray-color;
+                    }
+                }
+
+
+                .item-price {
+                    color: $sub-color;
+                    font-size: 1.7rem;
+                    font-weight: bold;
+                    sub {
+                        color: $main-color;
+                        font-weight: normal;
+                    }
+                }
+            }
+
+        }
+        // ==== end item-head
+
+        // start item-body
+        .item-body {
+            .ing-text {
+                margin-bottom: $small-space;
+                color: $light-gray-color;
+            }
+
+            .more-ingred {
+                margin-left: auto;
+                color: $main-color !important;
+            }
+
+            .item-ing-box {
+                color: $light-gray-color;
+                font-size: $font-size-small;
+                &:not(.more-ingred) {
+                    margin-right: $small-space;
+                }
+            }
+        }
+        // ==== end item-body
+
+    }
+}

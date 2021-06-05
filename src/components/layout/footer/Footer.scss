@@ -1,0 +1,16 @@
+@import "../../../scss/style.scss";
+
+footer {
+    position: relative;
+    margin-top: auto;
+
+    .footer-content {
+        margin-top: $large-space;
+        padding: $medium-space $small-space;
+        .text {
+            a {
+                color: $sub-color;
+            }
+        }
+    }
+}

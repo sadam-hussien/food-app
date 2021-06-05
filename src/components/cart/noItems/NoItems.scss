@@ -1,0 +1,18 @@
+@import "../../../scss/style.scss";
+
+.cart-no-item {
+    img {
+        max-height: 300px;
+        margin-bottom: $large-space;
+    }
+
+    .shop-btn {
+        @include btn;
+        padding-bottom: 3px;
+        font-size: 1.2rem;
+
+        .icon {
+            margin-left: $small-space;
+        }
+    }
+}

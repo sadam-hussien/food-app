@@ -1,0 +1,48 @@
+@import "../../../scss/style.scss";
+
+.recipe-item-head {
+    margin-bottom: $large-space;
+
+    .recipe-item-head-btn {
+        $size: 40px;
+        width: $size;
+        height: $size;
+        line-height: $size;
+        text-align: center;        
+        border-radius: 10px;
+        transition: .3s;
+    }
+
+    // start go-to-home-btn
+    .go-to-home-btn {
+        background: rgba($main-color, .1);
+        color: $main-color;
+        
+        &:hover {
+            background: $main-color;
+            color: $white-color;
+        }
+    }
+    // ==== ed go-to-home-btn
+
+    // strat add-to-fav-btn
+    .add-to-fav-btn {
+        background: $white-color;
+        padding: 0;
+        border: none;
+        color: $sub-color;
+        box-shadow: 0 0 10px rgba($dark-color, .1);
+
+        &:focus {
+            box-shadow: 0 0 10px rgba($dark-color, .1) !important;
+        }
+
+        &.in-fav {
+            color: $main-color;
+        }
+    }
+    // ==== end add-to-fav-btn
+
+
+
+}

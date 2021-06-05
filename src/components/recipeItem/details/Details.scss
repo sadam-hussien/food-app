@@ -1,0 +1,91 @@
+@import "../../../scss/style.scss";
+
+.recipe-item-details {
+
+    .img {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    // start recipe-item-details-inner
+    .recipe-item-details-inner {
+
+        // start recipe-item-details-inner-head
+        .recipe-item-details-inner-head {
+            margin-top: $medium-space;
+
+            // start toping-area
+            .toping-area {
+                margin-bottom: $medium-space;
+
+                .name {
+                    color: $sub-color;
+                }
+            }
+            // ==== end toping-area
+
+            // start bottoming-area
+            .bottoming-area {
+                .price {
+                    color: $sub-color;
+                    font-size: 1.5rem;
+                    sub {
+                        color: $main-color;
+                    }
+                }
+            }
+            // ==== end bottoming-area
+
+        }
+        // ===== end recipe-item-details-inner-head
+
+        // start eat-info
+        .eat-info {
+            margin-bottom: $medium-space;
+
+            .eat-info-box {
+                .icon {
+                    margin-right: $small-space;
+                }
+                .text {
+                    // color: $sub-color;
+                    font-weight: bold;
+                    font-size: $font-size-small;
+                }
+                &.rate {
+                    .icon {
+                        color: $main-color;
+                    }
+                }
+                &.colories {
+                    .icon {
+                        color: #e91e63;
+                    }
+                }
+                &.time {
+                    .icon {
+                        color: $additional-color;
+                    }
+                }
+            }
+        }
+        // ==== end eat-info
+
+        // start recipe-item-details-inner-body
+        .recipe-item-details-inner-body {
+            .details-title {
+                color: $sub-color;
+                margin-bottom: $small-space;
+            }
+
+            .details-details {
+                line-height: 1.7;
+                word-spacing: 1px;
+            }
+        }
+        // ==== end recipe-item-details-inner-body
+
+    }
+    // === end recipe-item-details-inner
+
+}
